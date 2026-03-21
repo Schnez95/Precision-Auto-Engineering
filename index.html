@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Auto Engineering</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-automotive-600">Precision Auto Engineering</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="text-dark-700 hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                        <a href="#about" class="text-dark-700 hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="#services" class="text-dark-700 hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
+                        <a href="#contact" class="text-dark-700 hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-dark-700 hover:text-automotive-600 p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="text-dark-700 hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#about" class="text-dark-700 hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#services" class="text-dark-700 hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="#contact" class="text-dark-700 hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-automotive-700 to-automotive-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <h2 class="text-4xl md:text-6xl font-bold mb-6">Welcome to Precision Auto Engineering</h2>
+                <p class="text-xl md:text-2xl mb-8 text-automotive-100">Custom Fabrication • Performance Engineering • Racing Excellence</p>
+                <div class="space-x-4">
+                    <button class="btn-automotive">Get Started</button>
+                    <button class="btn-secondary bg-transparent border-2 border-white text-white hover:bg-white hover:text-automotive-700">View Our Work</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-900 mb-4">About Precision Auto Engineering</h2>
+                <p class="text-lg text-dark-600 max-w-3xl mx-auto">With over 20 years of experience in high-performance automotive fabrication, we deliver precision engineering solutions that push the boundaries of what's possible on the track and street.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Performance Engineering</h3>
+                    <p class="text-dark-600">State-of-the-art engine tuning and performance optimization for maximum power output.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Custom Fabrication</h3>
+                    <p class="text-dark-600">Bespoke metalwork and fabrication services tailored to your specific requirements.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Racing Heritage</h3>
+                    <p class="text-dark-600">Track-tested solutions with proven performance in competitive racing environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-900 mb-4">Our Fabrication Services</h2>
+                <p class="text-lg text-dark-600 max-w-3xl mx-auto">Comprehensive automotive fabrication and engineering services for performance enthusiasts and professional racing teams.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Custom Roll Cages</h3>
+                    <p class="text-dark-600 text-sm">NHRA-certified roll cage fabrication for safety and performance</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Exhaust Systems</h3>
+                <p class="text-dark-600 text-sm">Custom exhaust fabrication for optimal flow and sound</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Engine Building</h3>
+                <p class="text-dark-600 text-sm">High-performance engine assembly and tuning</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Suspension Setup</h3>
+                <p class="text-dark-600 text-sm">Custom suspension fabrication and corner balancing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-900 mb-4">Start Your Project</h2>
+                <p class="text-lg text-dark-600 max-w-3xl mx-auto">Ready to transform your vehicle? Contact us today to discuss your performance goals and fabrication needs.</p>
+            </div>
+            <div class="max-w-2xl mx-auto">
+                <form id="contact-form" class="bg-white p-8 rounded-lg shadow-md" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <input type="hidden" name="bot-field" />
+                    <div class="mb-6">
+                        <label for="name" class="block text-dark-700 font-medium mb-2">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-dark-300 rounded-lg focus:ring-2 focus:ring-automotive-500 focus:border-transparent">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-dark-700 font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-dark-300 rounded-lg focus:ring-2 focus:ring-automotive-500 focus:border-transparent">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-dark-700 font-medium mb-2">Project Details</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-dark-300 rounded-lg focus:ring-2 focus:ring-automotive-500 focus:border-transparent"></textarea>
+                    </div>
+                    <button type="submit" class="w-full btn-automotive">Send Message</button>
+                </form>
+                <div id="form-message" class="mt-4 p-4 rounded-lg hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Precision Auto Engineering</h3>
+                    <p class="text-dark-400">Precision fabrication and performance engineering for the automotive enthusiast.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-dark-400">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-dark-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Roll Cages</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Exhaust Systems</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Engine Building</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Suspension</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-dark-400 hover:text-white transition-colors">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-dark-400 hover:text-white transition-colors">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-dark-400 hover:text-white transition-colors">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-dark-800 mt-12 pt-8 text-center text-dark-400">
+                <p>&copy; 2026 Precision Auto Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive website built with HTML, Tailwind CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "python -m http.server 8080"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "keywords": ["website", "modern", "responsive", "tailwindcss"],
+  "author": "",
+  "license": "MIT"
+}
