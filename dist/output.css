@@ -18,17 +18,17 @@ body {
 }
 
 /* Utility classes */
-/* Automotive theme colors */
-.bg-automotive-500 { background-color: #ef4444; }
-.bg-automotive-600 { background-color: #dc2626; }
-.bg-automotive-700 { background-color: #b91c1c; }
-.bg-automotive-900 { background-color: #7f1d1d; }
+/* Automotive theme colors (blue and black) */
+.bg-automotive-500 { background-color: #3b82f6; }
+.bg-automotive-600 { background-color: #2563eb; }
+.bg-automotive-700 { background-color: #1d4ed8; }
+.bg-automotive-900 { background-color: #1e3a8a; }
 .bg-dark-300 { background-color: #d1d5db; }
 .bg-dark-800 { background-color: #1f2937; }
 
-.text-automotive-600 { color: #dc2626; }
-.text-automotive-700 { color: #b91c1c; }
-.text-automotive-100 { color: #fecaca; }
+.text-automotive-600 { color: #2563eb; }
+.text-automotive-700 { color: #1d4ed8; }
+.text-automotive-100 { color: #dbeafe; }
 .text-dark-600 { color: #4b5563; }
 .text-dark-700 { color: #374151; }
 .text-dark-800 { color: #1f2937; }
@@ -39,11 +39,11 @@ body {
 .border-dark-400 { border-color: #9ca3af; }
 .border-dark-800 { border-color: #1f2937; }
 
-.focus\:ring-automotive-500:focus { box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.5); }
+.focus\:ring-automotive-500:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); }
 
-.hover\:text-automotive-600:hover { color: #dc2626; }
-.hover\:text-automotive-700:hover { color: #b91c1c; }
-.hover\:bg-automotive-700:hover { background-color: #b91c1c; }
+.hover\:text-automotive-600:hover { color: #2563eb; }
+.hover\:text-automotive-700:hover { color: #1d4ed8; }
+.hover\:bg-automotive-700:hover { background-color: #1d4ed8; }
 .hover\:text-white:hover { color: white; }
 
 /* Original utility classes */
@@ -183,9 +183,9 @@ body {
   .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
-/* Custom component styles for automotive theme */
+/* Custom component styles for blue automotive theme */
 .btn-automotive {
-  background-color: #dc2626;
+  background-color: #2563eb;
   color: white;
   font-weight: 700;
   padding: 0.75rem 1.5rem;
@@ -198,7 +198,7 @@ body {
 }
 
 .btn-automotive:hover {
-  background-color: #b91c1c;
+  background-color: #1d4ed8;
   transform: scale(1.05);
 }
 
