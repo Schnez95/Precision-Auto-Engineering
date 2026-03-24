@@ -33,11 +33,12 @@ contactForm.addEventListener('submit', function(e) {
     const formData = new FormData(this);
     const name = formData.get('name');
     const email = formData.get('email');
+    const phone = formData.get('phone');
     const message = formData.get('message');
     
     // Simple validation
     if (!name || !email || !message) {
-        showFormMessage('Please fill in all fields.', 'error');
+        showFormMessage('Please fill in all required fields.', 'error');
         return;
     }
     
@@ -46,6 +47,15 @@ contactForm.addEventListener('submit', function(e) {
     if (!emailRegex.test(email)) {
         showFormMessage('Please enter a valid email address.', 'error');
         return;
+    }
+    
+    // Phone validation (optional field)
+    if (phone && phone.trim()) {
+        const phoneRegex = /^[\d\s\-\+\(\)]+$/;
+        if (!phoneRegex.test(phone)) {
+            showFormMessage('Please enter a valid phone number.', 'error');
+            return;
+        }
     }
     
     // Show loading state
