@@ -54,12 +54,25 @@ html, body {
 
 /* Override any remaining white backgrounds but allow automotive colors */
 .bg-white, .bg-gray-50, .bg-gray-100 {
-  background-color: black !important;
+  background-color: #0f172a !important;
 }
 
 /* Allow automotive colors to show through */
 .bg-automotive-900 {
   background-color: #1e3a8a !important;
+}
+
+/* Ensure section backgrounds are dark */
+section {
+  background-color: #0f172a !important;
+}
+
+section.bg-slate-900 {
+  background-color: #0f172a !important;
+}
+
+section.bg-gray-900 {
+  background-color: #111827 !important;
 }
 
 /* Original utility classes */
@@ -71,7 +84,22 @@ html, body {
 .bg-primary-700 { background-color: #1d4ed8; }
 .bg-transparent { background-color: transparent; }
 
-.text-white { color: white; }
+/* Ensure text visibility */
+h1, h2, h3, h4, h5, h6 {
+  color: white !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-gray-300 {
+  color: #d1d5db !important;
+}
+
+.text-automotive-600 {
+  color: #2563eb !important;
+}
 .text-gray-700 { color: #374151; }
 .text-gray-900 { color: #111827; }
 .text-gray-600 { color: #4b5563; }
