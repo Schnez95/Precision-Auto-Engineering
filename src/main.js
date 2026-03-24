@@ -48,19 +48,34 @@ contactForm.addEventListener('submit', function(e) {
         return;
     }
     
+    // Show loading state
+    const submitButton = this.querySelector('button[type="submit"]');
+    const originalText = submitButton.textContent;
+    submitButton.textContent = 'Sending...';
+    submitButton.disabled = true;
+    
     // Submit to Netlify
     fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData).toString()
     })
-    .then(() => {
-        showFormMessage('Thank you for your message! We\'ll get back to you soon.', 'success');
-        this.reset();
+    .then(response => {
+        if (response.ok) {
+            showFormMessage('Thank you for your message! We\'ll get back to you soon.', 'success');
+            this.reset();
+        } else {
+            throw new Error('Form submission failed');
+        }
     })
     .catch((error) => {
         showFormMessage('Oops! Something went wrong. Please try again.', 'error');
         console.error('Form submission error:', error);
+    })
+    .finally(() => {
+        // Reset button state
+        submitButton.textContent = originalText;
+        submitButton.disabled = false;
     });
 });
 
