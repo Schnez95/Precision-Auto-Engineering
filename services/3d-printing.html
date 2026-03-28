@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0f172a">
+    <title>3D Printing - Precision Auto Engineering</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-slate-900">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-automotive-600">Precision Auto Engineering</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-baseline space-x-4">
+                            <a href="../index.html" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                            <a href="../index.html#about" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                            <a href="../index.html#services" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
+                            <a href="../index.html#contact" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                        </div>
+                        <a href="mailto:precisionautoengineering@hotmail.com" class="text-white hover:text-automotive-600 text-sm font-medium transition-colors">
+                            precisionautoengineering@hotmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-automotive-600 p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="../index.html" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="../index.html#about" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="../index.html#services" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="../index.html#contact" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Header -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">3D Printing</h1>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto text-center">Advanced 3D printing and rapid prototyping services for custom components</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-6">Rapid Prototyping & Manufacturing</h2>
+                    <p class="text-gray-300 mb-6">State-of-the-art 3D printing technology for rapid prototyping and custom component manufacturing. From concept to physical parts in hours, not weeks.</p>
+                    
+                    <h3 class="text-xl font-semibold text-white mb-4">3D Printing Services:</h3>
+                    <ul class="space-y-3 text-gray-300 mb-8">
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 text-automotive-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            FDM printing for functional prototypes
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 text-automotive-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            SLA printing for high-detail parts
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 text-automotive-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Multiple material options
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="h-5 w-5 text-automotive-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Post-processing and finishing
+                        </li>
+                    </ul>
+                    
+                    <div class="space-x-4">
+                        <a href="../index.html#contact" class="btn-automotive">Get Quote</a>
+                        <a href="../portfolio.html" class="btn-secondary bg-transparent border-2 border-white text-white hover:bg-white hover:text-automotive-700">View Projects</a>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <div class="text-center mb-6">
+                        <svg class="h-24 w-24 text-automotive-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4 text-center">Digital Manufacturing</h3>
+                    <p class="text-gray-300 text-center">Transform your digital designs into physical reality with our advanced 3D printing capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Printing Materials</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto text-center">Wide range of materials for different applications</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <h3 class="text-lg font-semibold text-white mb-2">PLA</h3>
+                    <p class="text-gray-300 text-sm">Easy to print, ideal for prototypes</p>
+                </div>
+                
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <h3 class="text-lg font-semibold text-white mb-2">ABS</h3>
+                    <p class="text-gray-300 text-sm">Durable, temperature resistant</p>
+                </div>
+                
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <h3 class="text-lg font-semibold text-white mb-2">PETG</h3>
+                    <p class="text-gray-300 text-sm">Chemical resistant, strong</p>
+                </div>
+                
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <h3 class="text-lg font-semibold text-white mb-2">Resin</h3>
+                    <p class="text-gray-300 text-sm">High detail, smooth finish</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Applications</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto text-center">Perfect for various automotive and engineering needs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Prototyping</h3>
+                    <p class="text-gray-300 text-sm">Quick design validation and testing</p>
+                </div>
+                
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Custom Parts</h3>
+                    <p class="text-gray-300 text-sm">One-off components and modifications</p>
+                </div>
+                
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <div class="text-automotive-600 mb-4">
+                        <svg class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-2">Jigs & Fixtures</h3>
+                    <p class="text-gray-300 text-sm">Custom tooling and manufacturing aids</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Need 3D Printing Services?</h2>
+            <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">Contact us for rapid prototyping and custom 3D printed parts</p>
+            <a href="../index.html#contact" class="btn-automotive">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Precision Auto Engineering</h3>
+                    <p class="text-gray-400">Expert automotive fabrication and precision engineering solutions</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="../index.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="../index.html#about" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="../index.html#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="exhaust-systems.html" class="hover:text-white transition-colors">Exhaust Systems</a></li>
+                        <li><a href="precision-cutting.html" class="hover:text-white transition-colors">Precision Cutting & Folding</a></li>
+                        <li><a href="cad-design.html" class="hover:text-white transition-colors">CAD Design</a></li>
+                        <li><a href="3d-printing.html" class="hover:text-white transition-colors">3D Printing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="mailto:precisionautoengineering@hotmail.com" class="text-gray-400 hover:text-white transition-colors">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 Precision Auto Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0f172a">
+    <title>Portfolio - Precision Auto Engineering</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-slate-900">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-automotive-600">Precision Auto Engineering</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-baseline space-x-4">
+                            <a href="index.html" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                            <a href="index.html#about" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                            <a href="index.html#services" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
+                            <a href="index.html#contact" class="text-white hover:text-automotive-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                        </div>
+                        <a href="mailto:precisionautoengineering@hotmail.com" class="text-white hover:text-automotive-600 text-sm font-medium transition-colors">
+                            precisionautoengineering@hotmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-automotive-600 p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="index.html#about" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="index.html#services" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="index.html#contact" class="text-white hover:text-automotive-600 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Portfolio</h1>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto text-center">Showcasing our precision fabrication work and custom engineering projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                            <p class="text-gray-400">Custom Exhaust System</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Performance Exhaust Fabrication</h3>
+                        <p class="text-gray-300 mb-4">Custom stainless steel exhaust system for enhanced performance and sound</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">Exhaust Systems</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">Stainless Steel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <p class="text-gray-400">Precision Cutting</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Laser Cut Brackets</h3>
+                        <p class="text-gray-300 mb-4">Precision laser-cut mounting brackets for automotive applications</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">Precision Cutting</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">Metal Folding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <p class="text-gray-400">CAD Design</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">3D CAD Modeling</h3>
+                        <p class="text-gray-300 mb-4">Complete CAD design and prototyping for custom components</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">CAD Design</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">3D Modeling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                            </svg>
+                            <p class="text-gray-400">3D Printing</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">3D Printed Prototypes</h3>
+                        <p class="text-gray-300 mb-4">Rapid prototyping and custom component manufacturing</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">3D Printing</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            </svg>
+                            <p class="text-gray-400">Custom Fabrication</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Custom Fabrication Project</h3>
+                        <p class="text-gray-300 mb-4">Bespoke metalwork and custom fabrication solutions</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">Custom Fabrication</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">Welding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="h-16 w-16 text-automotive-600 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <p class="text-gray-400">Engineering Setup</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-white mb-2">Precision Engineering Setup</h3>
+                        <p class="text-gray-300 mb-4">Complete engineering solutions and precision setup</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-automotive-900 text-white text-sm rounded-full">Engineering</span>
+                            <span class="px-3 py-1 bg-gray-700 text-gray-300 text-sm rounded-full">Setup</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Start Your Project?</h2>
+            <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">Contact us today to discuss your custom fabrication needs and bring your vision to life</p>
+            <div class="space-x-4">
+                <a href="index.html#contact" class="btn-automotive">Get Started</a>
+                <a href="index.html#services" class="btn-secondary bg-transparent border-2 border-white text-white hover:bg-white hover:text-automotive-700">View Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Precision Auto Engineering</h3>
+                    <p class="text-gray-400">Expert automotive fabrication and precision engineering solutions</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="index.html#about" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="index.html#services" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="index.html#contact" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#services#exhaust" class="hover:text-white transition-colors">Exhaust Systems</a></li>
+                        <li><a href="#services#cutting" class="hover:text-white transition-colors">Precision Cutting & Folding</a></li>
+                        <li><a href="#services#cad" class="hover:text-white transition-colors">CAD Design</a></li>
+                        <li><a href="#services#printing" class="hover:text-white transition-colors">3D Printing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-white">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="mailto:precisionautoengineering@hotmail.com" class="text-gray-400 hover:text-white transition-colors">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 Precision Auto Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>
