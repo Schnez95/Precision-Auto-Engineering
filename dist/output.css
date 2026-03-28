@@ -47,6 +47,34 @@ body {
 .hover\:bg-automotive-700:hover { background-color: #1d4ed8; }
 .hover\:text-white:hover { color: white; }
 
+/* Safari/iOS specific fixes */
+@supports (-webkit-appearance: none) {
+  html, body {
+    background-color: #0f172a !important;
+    -webkit-appearance: none;
+  }
+  
+  section {
+    background-color: #0f172a !important;
+    -webkit-appearance: none;
+  }
+  
+  .bg-slate-900 {
+    background-color: #0f172a !important;
+    -webkit-appearance: none;
+  }
+  
+  .bg-gray-900 {
+    background-color: #111827 !important;
+    -webkit-appearance: none;
+  }
+  
+  .bg-gray-800 {
+    background-color: #1f2937 !important;
+    -webkit-appearance: none;
+  }
+}
+
 /* Force specific backgrounds to dark by default */
 html, body {
   background-color: #0f172a !important;
